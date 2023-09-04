@@ -33,4 +33,10 @@ yt-chip-cloud-renderer[darker-dark-theme] #right-arrow-button.yt-chip-cloud-rend
 
 html[dark], [dark] {
   --yt-spec-base-background: #1e1e3f;
+  --yt-spec-brand-background-primary: #1e1e3f;
+  --yt-active-playlist-panel-background-color: #A599E9;
+}
+
+#playlist-items[selected] {
+  background: #32325e;
 }
