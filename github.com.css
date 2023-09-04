@@ -1,7 +1,7 @@
-[data-color-mode=light][data-light-theme=dark_colorblind],
-[data-color-mode=dark][data-dark-theme=dark_colorblind] {
+[data-color-mode=light][data-light-theme=dark_colorblind], [data-color-mode=dark][data-dark-theme=dark_colorblind] {
     --color-page-header-bg: #1e1e3f;
     --color-canvas-default: #1e1e3f;
+    --color-canvas-inset: #1e1e3f;
     --color-header-bg: #1e1e3f;
     --color-btn-bg: #1e1e3f;
     --color-btn-border: #404076;
@@ -10,8 +10,8 @@
     --color-header-text: #A599E9;
     --color-canvas-subtle: #272750;
     --color-border-default: #404076;
-}
-
-body::-webkit-scrollbar {
+  }
+  
+  body::-webkit-scrollbar {
     display: none !important;
-}
+  }
