@@ -27,3 +27,10 @@ yt-chip-cloud-renderer[darker-dark-theme] #right-arrow-button.yt-chip-cloud-rend
   background-color: #1e1e3f !important;
 }
 
+.immersive-header-gradient.style-scope.ytd-playlist-header-renderer {
+  background: linear-gradient(to bottom, #A599E9 0%, rgba(30,30,63,0.298) 33.000001%, #1e1e3f 100%) !important;
+}
+
+html[dark], [dark] {
+  --yt-spec-base-background: #1e1e3f;
+}
