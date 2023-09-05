@@ -12,3 +12,7 @@ body,
 .thing .title {
   color: yellow;
 }
+
+.promoted {
+  display: none;
+}
