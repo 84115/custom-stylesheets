@@ -1,17 +1,23 @@
 [data-color-mode=light][data-light-theme=dark_colorblind], [data-color-mode=dark][data-dark-theme=dark_colorblind] {
-    --color-page-header-bg: #1e1e3f;
-    --color-canvas-default: #1e1e3f;
-    --color-canvas-inset: #1e1e3f;
-    --color-header-bg: #1e1e3f;
-    --color-btn-bg: #1e1e3f;
-    --color-btn-border: #404076;
-    --color-accent-fg: #A599E9;
-    --color-btn-primary-bg: #A599E9;
-    --color-header-text: #A599E9;
-    --color-canvas-subtle: #272750;
-    --color-border-default: #404076;
-  }
-  
-  body::-webkit-scrollbar {
-    display: none !important;
-  }
+  --color-page-header-bg: #1e1e3f;
+  --color-canvas-default: #1e1e3f;
+  --color-canvas-inset: #1e1e3f;
+  --color-header-bg: #1e1e3f;
+  --color-btn-bg: #1e1e3f;
+  --color-btn-border: #404076;
+  --color-accent-fg: #A599E9;
+  --color-btn-primary-bg: #A599E9;
+  --color-header-text: #A599E9;
+  --color-canvas-subtle: #272750;
+  --color-border-default: #404076;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.tooltipped img,
+img.avatar,
+img.achievement-badge-sidebar {
+  filter: sepia(100%) hue-rotate(210deg) saturate(250%)
+}
