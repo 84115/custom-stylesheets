@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
 html[darker-dark-theme][dark], body, ytd-app[darker-dark-theme], #masthead, #guide-spacer, #guide-content {
   color: #A599E9;
   background-color: #1e1e3f !important;
