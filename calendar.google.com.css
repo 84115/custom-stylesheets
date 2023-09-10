@@ -1,0 +1,49 @@
+:root {
+    color-scheme: light;
+    --primary: #A599E9;
+    --primary-variant: rgb(66,133,244);
+    --on-primary: #323264;
+    --secondary: rgb(232,240,254);
+    --secondary-variant: rgb(210,227,252);
+    --on-secondary: rgb(25,103,210);
+    --on-secondary-variant: rgb(24,90,188);
+    --surface: #323264;
+    --surface-transparent: #323264;
+    --on-surface: #A599E9;
+    --on-surface-variant: rgb(95,99,104);
+    --on-surface-variant-agm: #887fc88c;
+    --background: #323264;
+    --on-background: rgb(32,33,36);
+    --textfield-surface: rgb(241,243,244);
+    --textfield-primary: rgb(25,103,210);
+    --textfield-hairline: rgb(128,134,139);
+    --textfield-error: rgb(197,34,31);
+    --textfield-on-surface-variant: rgb(95,99,104);
+    --hairline: #A599E9;
+    --error: rgb(217,48,37);
+    --on-error: #fff;
+    --shadow-1: 0px 1px 2px 0px rgba(60,64,67,0.3),0px 1px 3px 1px rgba(60,64,67,0.15);
+    --shadow-5: 0px 4px 4px 0px rgba(60,64,67,0.3),0px 8px 12px 6px rgba(60,64,67,0.15);
+    --fab: #A599E9;
+    --fab-hover: #A599E9;
+    --dimmed: #887fc88c;
+    --chip-hover: rgb(241,243,244);
+    --now: rgb(234,67,53);
+}
+
+.gb_ld.gb_fd {
+  background-color: #323264;
+  color: #A599E9;
+}
+
+.NkK3Fc span[role=heading],
+.JJyfjc,
+.xYvThe:not(:disabled),
+.yR9sJd.yR9sJd:not(:disabled),
+.ec9Aq,
+.gb_Ka svg {
+  color: #A599E9 !important;
+}
+
+/*header,*/
+.Kk7lMc-DWWcKd-OomVLb-haAclf.gboEAb { display: none !important; }
